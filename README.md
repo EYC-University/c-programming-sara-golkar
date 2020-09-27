@@ -1,1 +1,1 @@
-# university-programming-practice
+# university-programming
