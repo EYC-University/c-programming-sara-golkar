@@ -8,7 +8,7 @@ int main()
     const int n = 3;
     for(i=0; i<n;i++){
         printf("enter score %d: ", i+1);
-        scanf("%d", &num);
+        scanf("%f", &num);
         num = num*3;
         sum += num;
     }
