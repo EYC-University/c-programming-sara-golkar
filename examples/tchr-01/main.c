@@ -7,7 +7,7 @@ int main()
     float ave;
     const int n = 3;
     for(i=0; i<n;i++){
-        printf("enter number %d: ", i+1);
+        printf("enter score %d: ", i+1);
         scanf("%d", &num);
         num = num*3;
         sum += num;
