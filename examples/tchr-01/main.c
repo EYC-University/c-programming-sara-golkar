@@ -3,8 +3,8 @@
 
 int main()
 {
-    int i, sum=0;
-    float ave, num;
+    int i;
+    float ave, num, sum=0;
     const int n = 3;
     for(i=0; i<n;i++){
         printf("enter score %d: ", i+1);
