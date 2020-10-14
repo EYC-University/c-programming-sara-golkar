@@ -4,15 +4,18 @@
 int main()
 {
     int i;
-    float ave, num, sum=0;
+    float ave, num, sum=0, ratio, sum_ratio;
     const int n = 3;
-    for(i=0; i<n;i++){
+    for(i=0; i<n; i++){
         printf("enter score %d: ", i+1);
         scanf("%f", &num);
-        num = num*3;
+        printf("\nenter ratio: ");
+        scanf("%f", &ratio);
+        num = num*ratio;
         sum += num;
+        sum_ratio += ratio;
     }
-    ave = (float) sum/9;
-    printf("\n the average is: %.2f ",ave);
+    ave = (float) sum/sum_ratio;
+    printf("\n_____________________\nthe average is: %.2f ",ave);
     return 0;
 }
