@@ -104,3 +104,4 @@ main.c
 .idea
 .idea/*
 .idea/vcs.xml
+cmake-build-debug/CMakeFiles/Progress/count.txt

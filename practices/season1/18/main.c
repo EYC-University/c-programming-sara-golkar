@@ -2,9 +2,8 @@
 
 int main() {
 
-	float nomarat[5] ;
+	float nomarat[5], moadel;
 	float jame_nomarat = 0;
-	float moadel = 0;
 	int i;
 
 	for (i = 0; i < 5; i++)
