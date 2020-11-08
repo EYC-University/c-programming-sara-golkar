@@ -104,3 +104,5 @@ CMakeLists.txt
 .idea/*
 .idea/vcs.xml
 cmake-build-debug/CMakeFiles/Progress/count.txt
+*.cbp
+testcode/*
