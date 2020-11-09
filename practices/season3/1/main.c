@@ -31,6 +31,6 @@ int main()
      }
   }
 
-  printf("\nSecond student (average) is %d and average is %5.2f",secondStudent,secondAverage);
+  printf("\nSecond student (average) is %d and average is: %5.2f",secondStudent,secondAverage);
   return 0;
 }
