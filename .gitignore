@@ -106,3 +106,4 @@ CMakeLists.txt
 cmake-build-debug/CMakeFiles/Progress/count.txt
 *.cbp
 testcode/*
+practices/season3/.vscode/c_cpp_properties.json
