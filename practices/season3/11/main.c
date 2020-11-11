@@ -30,6 +30,5 @@ int main()
     }
 
     printf("Result=%d",result);
-    getch();
     return 0;
 }
